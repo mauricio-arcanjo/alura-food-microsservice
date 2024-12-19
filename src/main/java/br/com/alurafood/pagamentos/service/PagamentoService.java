@@ -93,7 +93,7 @@ public class PagamentoService {
 
     }
 
-
+    //Método para alterar status do pagamento
     public void alterarStatus(Long id) {
 
         Optional<Pagamento> pagamento = pagamentoRepository.findById(id);
